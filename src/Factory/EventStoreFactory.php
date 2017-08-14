@@ -6,7 +6,7 @@ namespace Prooph\Bundle\EventStore\Factory;
 
 use Prooph\Common\Event\ActionEventEmitter;
 use Prooph\EventStore\EventStore;
-use Psr\Container\ContainerInterface;
+use Symfony\Component\DependencyInjection\ContainerInterface;
 
 interface EventStoreFactory
 {
